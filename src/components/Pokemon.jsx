@@ -31,8 +31,8 @@ function Pokemon({ pokemon }) {
                 <h5 className="card-title">Pokedex index: {itemPokemon?.id} </h5>
                 <p className="card-text">
                     <ul>
-                        <li>Abilitiy: {itemPokemon?.abilities[0]?.ability?.name}</li>
-                        <li>Type: {itemPokemon?.types[0]?.type?.name}</li>
+                        {/* <li>Abilitiy: {itemPokemon?.abilities[0]?.ability?.name}</li> */}
+                        {/* <li>Type: {itemPokemon?.types[0]?.type?.name}</li> */}
                     </ul>
                 </p>
             </div>

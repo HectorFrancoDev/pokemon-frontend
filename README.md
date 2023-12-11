@@ -4,7 +4,8 @@
 - Author: Héctor Franco
 - website: <https://hectorfranco.dev>
 - email: <contact@hectorfranco.dev>
-- Last edit: Dec 10th 2023
+- Last edit: Dec 11th 2023
+- Static server: <https://pokemon-frontend-9pfh.onrender.com/>
 ___
 
 Client-side application to consume the API Rest developed with Flask for the Technical Test MISO

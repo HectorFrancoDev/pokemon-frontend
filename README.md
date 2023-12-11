@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Pokedex Frontend - Technical Test MISO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
+- Author: Héctor Franco
+- website: <https://hectorfranco.dev>
+- email: <contact@hectorfranco.dev>
+- Last edit: Dec 10th 2023
+___
+
+Client-side application to consume the API Rest developed with Flask for the Technical Test MISO
 
 ## Available Scripts
 

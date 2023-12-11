@@ -51,7 +51,7 @@ const PokemonList = () => {
 
                 <div className="row">
                     {pokemonList.map((pokemon, index) => (
-                        <div className="col-3">
+                        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                             <Pokemon key={index} pokemon={pokemon} />
                         </div>
                     ))}

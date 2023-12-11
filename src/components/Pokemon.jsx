@@ -22,21 +22,26 @@ function Pokemon({ pokemon }) {
         getPokemon()
     })
 
+    // console.log(itemPokemon.abilities?.map((ability) => ability.ability.name));
+
     return (
 
-        <div className="card" style={{ width: 18 + "rem", marginBottom: 15 + 'px' }} >
-            <img src={itemPokemon?.sprites?.front_default} className="card-img-top" alt={pokemon.name} />
-            <div className="card-body">
-                <h5 className="card-title">{pokemon.name.toUpperCase()}</h5>
-                <h5 className="card-title">Pokedex index: {itemPokemon?.id} </h5>
-                <p className="card-text">
-                    <ul>
-                        {/* <li>Abilitiy: {itemPokemon?.abilities[0]?.ability?.name}</li> */}
-                        {/* <li>Type: {itemPokemon?.types[0]?.type?.name}</li> */}
-                    </ul>
-                </p>
-            </div>
-        </ div>
+        <div>
+
+            <div className="card" style={{ width: 18 + "rem", marginBottom: 15 + 'px' }} >
+                <img src={itemPokemon?.sprites?.front_default} className="card-img-top" alt={pokemon.name} />
+                <div className="card-body">
+                    <h5 className="card-title">{pokemon.name.toUpperCase()}</h5>
+                    <h5 className="card-title">Pokedex index: {itemPokemon?.id} </h5>
+                    <p className="card-text">Abilities:</p>
+
+                </div>
+            </ div>
+
+            {/* {itemPokemon.abilities?.map((data) => {
+                <div>A</div>
+            })} */}
+        </div>
     )
 }
 

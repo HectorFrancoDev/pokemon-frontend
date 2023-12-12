@@ -11,8 +11,8 @@ function Pokemon({ pokemon }) {
         const getPokemon = async () => {
 
             try {
-                // const api = await axios.get(`${URL}/${pokemon.name}`)
-                const api = await axios.get(`${pokemon.url}`)
+                const api = await axios.get(`${URL}/${pokemon.name}`)
+                // const api = await axios.get(`${pokemon.url}`)
                 setItemPokemon(api.data)
             } catch (error) {
                 console.error('Error fetching Pokemon:', error);
